@@ -4,9 +4,8 @@ This repository contains the supporting code for the article titled "Prediction 
 
 ## Repository Structure
 
-- **/model**: Contains the pre-trained machine learning models used in the study.
-- **/code**: Includes all executable scripts used for data preprocessing, model training, evaluation, and generating visualizations.
-- **/notebook**: A Jupyter notebook that can be uploaded to Google Colab for an interactive experience of the model's execution and testing.
+- **/data**: Contains the pre-trained machine learning models used in the study.
+- **/code**: Includes executable scripts for interacting with the model.
 
 ## Getting Started
 

@@ -1,0 +1,186 @@
+feature,feature_pretty,min,max
+lab_Alkphos_2,"alkaline phosphatase
+[D2]",19.0,498.0
+lab_CRP_0,"c-reactive protein
+[D0]",0.0,610.0
+lab_CRP_1,"c-reactive protein
+[D1]",0.0,556.0
+lab_CRP_2,"c-reactive protein
+[D2]",1.6163346123431799,461.0
+lab_Creatinin_0,"creatinine
+[D0]",15.0,689.0
+lab_Creatinin_1,"creatinine
+[D1]",13.0,703.0
+lab_Creatinin_2,"creatinine
+[D2]",15.0,623.0
+lab_Thrombozyten_1,"platelets
+[D1]",26.0,500.0
+lab_Thrombozyten_2,"platelets
+[D2]",13.0,490.0
+lab_eGFR-CKD_0,"est. glomerular filtration rate (ckd-epi)
+[D0]",5.0,163.0
+lab_eGFR-CKD_1,"est. glomerular filtration rate (ckd-epi)
+[D1]",5.0,146.90661283443657
+lab_eGFR-CKD_2,"est. glomerular filtration rate (ckd-epi)
+[D2]",5.0,159.510960889824
+age,age,0.0,94.0
+sex,sex,0.0,1.0
+asa,ASA score,1.0,5.0
+com_charlson_MyocardialInfarction,myocardial infarction,0.0,1.0
+com_charlson_CongestiveHeartFailure,congestive heart failure,0.0,1.0
+com_charlson_PeripheralVascularDisease,peripheral vascular disease,0.0,1.0
+com_charlson_CerebrovascularDisease,cerebrovascular disease,0.0,1.0
+com_charlson_Dementia,dementia,0.0,1.0
+com_charlson_ChronicPulmonaryDisease,chronic pulmonary disease,0.0,1.0
+com_charlson_ConnectiveTissueDiseaseRheumaticDisease,rheumatic disease,0.0,1.0
+com_charlson_PepticUlcerDisease,peptic ulcer disease,0.0,1.0
+com_charlson_MildLiverDisease,mild liver disease,0.0,1.0
+com_charlson_ParaplegiaHemiplegia,paraplegia/hemiplegia,0.0,1.0
+com_charlson_RenalDisease,moderate/severe liver disease,0.0,1.0
+com_charlson_Cancer,cancer,0.0,1.0
+com_charlson_MetastaticCarcinoma,metastatic carcinoma,0.0,1.0
+com_charlson_HIV,HIV,0.0,1.0
+com_elix_CardiacArrhythmia,cardiac arrhythmia,0.0,1.0
+com_elix_ValvularDisease,valvular disease,0.0,1.0
+com_elix_PulmonaryCirculationDisorders,pulmonary circulation disorders,0.0,1.0
+com_elix_HypertensionUncomplicated,hypertension uncomplicated,0.0,1.0
+com_elix_HypertensionComplicated,hypertension complicated,0.0,1.0
+com_elix_OtherNeurologicalDisorders,other neurological disorders,0.0,1.0
+com_elix_Hypothyroidism,hypothyroidism,0.0,1.0
+com_elix_LiverDisease,liver disease,0.0,1.0
+com_elix_Lymphoma,lymphoma,0.0,1.0
+com_elix_SolidTumorNoMetastasis,solid tumor no metastasis,0.0,1.0
+com_elix_RheumatoidArthritis,rheumatoid arthritis,0.0,1.0
+com_elix_Coagulopathy,coagulopathy,0.0,1.0
+com_elix_WeightLoss,weight loss,0.0,1.0
+com_elix_FluidEcletrolyteDisorders,fluid electrolyte disorders,0.0,1.0
+com_elix_DeficiencyAnemia,deficiency anemia,0.0,1.0
+com_elix_AlcoholAbuse,alcohol abuse,0.0,1.0
+com_elix_DrugAbuse,drug abuse,0.0,1.0
+com_elix_Psychoses,psychoses,0.0,1.0
+com_elix_Depression,depression,0.0,1.0
+emergencysurgery,emergency o,0.0,1.0
+duration_of_surg,op duration (min),1.0,698.0
+imcib,moved to ICU,0.0,1.0
+night_surg,night Op,0.0,1.0
+atb_preop,antibiotics preOp,0.0,1.0
+delta_eGFR-CKD_1,"est. glomerular filtration rate (ckd-epi)
+[D1-D0]",-76.2212332502553,68.6590832936086
+deltaabs_eGFR-CKD_1,"est. glomerular filtration rate (ckd-epi)
+abs(D1-D0)",0.0,76.2212332502553
+deltasign_eGFR-CKD_1,"est. glomerular filtration rate (ckd-epi)
+sign(D1-D0)",-1.0,1.0
+deltaratio_eGFR-CKD_1,"est. glomerular filtration rate (ckd-epi)
+[D1/D0]",-0.9329837193418179,4.577272219573907
+delta_eGFR-CKD_2,"est. glomerular filtration rate (ckd-epi)
+[D2-D0]",-84.0,68.01003067295802
+deltaabs_eGFR-CKD_2,"est. glomerular filtration rate (ckd-epi)
+abs(D2-D0)",0.0,84.0
+deltasign_eGFR-CKD_2,"est. glomerular filtration rate (ckd-epi)
+sign(D2-D0)",-1.0,1.0
+deltaratio_eGFR-CKD_2,"est. glomerular filtration rate (ckd-epi)
+[D2/D0]",-0.9329837193418179,12.745346943220138
+kindiff_eGFR-CKD_2|1,"est. glomerular filtration rate (ckd-epi)
+[D2-D1]",-68.92065674913414,57.0
+kinabs_eGFR-CKD_2|1,"est. glomerular filtration rate (ckd-epi)
+abs(D2-D1)",0.0,68.92065674913414
+kinsign_eGFR-CKD_2|1,"est. glomerular filtration rate (ckd-epi)
+sign(D2-D1)",-1.0,1.0
+kinratio_eGFR-CKD_2|1,"est. glomerular filtration rate (ckd-epi)
+[D2/D1]",-0.9077984793633936,3.8390317610480733
+AVG_eGFR-CKD,"est. glomerular filtration rate (ckd-epi)
+[mean]",8.333333333333334,154.33333333333334
+delta_CRP_1,"c-reactive protein
+[D1-D0]",-124.0,305.0
+deltaabs_CRP_1,"c-reactive protein
+abs(D1-D0)",0.0,305.0
+deltasign_CRP_1,"c-reactive protein
+sign(D1-D0)",-1.0,1.0
+deltaratio_CRP_1,"c-reactive protein
+[D1/D0]",-1.0,24299999.999999996
+delta_CRP_2,"c-reactive protein
+[D2-D0]",-186.0,369.0
+deltaabs_CRP_2,"c-reactive protein
+abs(D2-D0)",1.0,369.0
+deltasign_CRP_2,"c-reactive protein
+sign(D2-D0)",-1.0,1.0
+deltaratio_CRP_2,"c-reactive protein
+[D2/D0]",-0.8383665387656819,36900000.0
+kindiff_CRP_2|1,"c-reactive protein
+[D2-D1]",-284.0,121.0
+kinabs_CRP_2|1,"c-reactive protein
+abs(D2-D1)",0.0,284.0
+kinsign_CRP_2|1,"c-reactive protein
+sign(D2-D1)",-1.0,1.0
+kinratio_CRP_2|1,"c-reactive protein
+[D2/D1]",-1.0,4.568153977073357
+AVG_CRP,"c-reactive protein
+[mean]",3.8631439139768613,542.3333333333334
+AVG_Alkphos,"alkaline phosphatase
+[mean]",23.100180012508417,591.3333333333334
+kindiff_Thrombozyten_2|1,"platelets
+[D2-D1]",-78.0,121.0
+kinabs_Thrombozyten_2|1,"platelets
+abs(D2-D1)",0.0,121.0
+kinsign_Thrombozyten_2|1,"platelets
+sign(D2-D1)",-1.0,1.0
+kinratio_Thrombozyten_2|1,"platelets
+[D2/D1]",-0.4631578947368421,1.8
+AVG_Thrombozyten,"platelets
+[mean]",19.5,507.0
+delta_Creatinin_1,"creatinine
+[D1-D0]",-297.0,519.4664329583101
+deltaabs_Creatinin_1,"creatinine
+abs(D1-D0)",0.0,519.4664329583101
+deltasign_Creatinin_1,"creatinine
+sign(D1-D0)",-1.0,1.0
+deltaratio_Creatinin_1,"creatinine
+[D1/D0]",-0.7411492886296774,4.419728304289888
+delta_Creatinin_2,"creatinine
+[D2-D0]",-523.4854281887881,453.20649111530315
+deltaabs_Creatinin_2,"creatinine
+abs(D2-D0)",0.0,523.4854281887881
+deltasign_Creatinin_2,"creatinine
+sign(D2-D0)",-1.0,1.0
+deltaratio_Creatinin_2,"creatinine
+[D2/D0]",-0.8739322674270252,5.0638297872340425
+kindiff_Creatinin_2|1,"creatinine
+[D2-D1]",-253.0,532.0
+kinabs_Creatinin_2|1,"creatinine
+abs(D2-D1)",0.0,532.0
+kinsign_Creatinin_2|1,"creatinine
+sign(D2-D1)",-1.0,1.0
+kinratio_Creatinin_2|1,"creatinine
+[D2/D1]",-0.7222618988334363,7.35541148647291
+AVG_Creatinin,"creatinine
+[mean]",14.333333333333334,582.6666666666666
+NA_Alkphos_0,"alkaline phosphatase
+[NA D0]",0.0,1.0
+NA_Alkphos_1,"alkaline phosphatase
+[NA D1]",0.0,1.0
+NA_Alkphos_2,"alkaline phosphatase
+[NA D2]",0.0,1.0
+NA_CRP_0,"c-reactive protein
+[NA D0]",0.0,0.0
+NA_CRP_1,"c-reactive protein
+[NA D1]",0.0,1.0
+NA_CRP_2,"c-reactive protein
+[NA D2]",0.0,1.0
+NA_Creatinin_0,"creatinine
+[NA D0]",0.0,1.0
+NA_Creatinin_1,"creatinine
+[NA D1]",0.0,1.0
+NA_Creatinin_2,"creatinine
+[NA D2]",0.0,1.0
+NA_Thrombozyten_0,"platelets
+[NA D0]",0.0,1.0
+NA_Thrombozyten_1,"platelets
+[NA D1]",0.0,1.0
+NA_Thrombozyten_2,"platelets
+[NA D2]",0.0,1.0
+NA_eGFR-CKD_0,"est. glomerular filtration rate (ckd-epi)
+[NA D0]",0.0,1.0
+NA_eGFR-CKD_1,"est. glomerular filtration rate (ckd-epi)
+[NA D1]",0.0,1.0
+NA_eGFR-CKD_2,"est. glomerular filtration rate (ckd-epi)
+[NA D2]",0.0,1.0
