@@ -1,0 +1,3 @@
+_id,diagnosis,age,sex,asa,atb_preop,duration_of_surg,emergencysurgery,night_surg,imcib,lab_Alkphos_0,lab_Alkphos_1,lab_Alkphos_2,lab_CRP_0,lab_CRP_1,lab_CRP_2,lab_Creatinin_0,lab_Creatinin_1,lab_Creatinin_2,lab_Thrombozyten_0,lab_Thrombozyten_1,lab_Thrombozyten_2
+p1,"B96.2, D64.9, E44.0, E83.38, E83.4, E87.1, G25.0, I11.90, K31.6, K63.2, K66.0, K86.8, R02, R18, R65.0, Y84.9, Z90.4, Z93.2",60,1,4,0,420,0,0,1,80,,,0,,,,,,,,
+p2,"C38.4, D62, E46, I10.00, N18.3, R41.0, Z85.2, Z90.2",80,1,3,0,176,0,0,0,90,,,4,72,126,,147,162,,,
