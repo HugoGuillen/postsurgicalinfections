@@ -5,7 +5,7 @@ This repository contains the supporting code for the article titled "Prediction 
 ## Repository Structure
 
 - **/data**: Contains the pre-trained machine learning models used in the study.
-- **/code**: Includes executable scripts for interacting with the model.
+- **/nb_predictor.ipynb**: Jupyter notebook for performing the classification and SHAP Radar.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ Ensure you have the following installed:
 
 ## Running the Notebook
 
-- Navigate to the /notebook directory.
+- Navigate to the root directory.
 - Open the Jupyter Notebook in your local environment or upload it to Google Colab.
 - Follow the instructions within the notebook to run the model.
 
@@ -33,8 +33,8 @@ Ensure you have the following installed:
 To use the pre-trained model:
 
 - Import the model from the /model directory.
-- Load your data following the structure outlined in the notebook.
-- Use the provided code in the /code directory to apply the model to your data.
+- Load your data following the structure outlined in the notebook (check the `template.csv`).
+- Use the provided code in the notebook to apply the model to your data.
 
 ## Contributing
 
